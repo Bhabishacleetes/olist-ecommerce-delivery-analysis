@@ -1,0 +1,43 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2870
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 \
+# Olist E-Commerce Delivery Analysis\
+\
+## Project Overview\
+This project analyzes Olist e-commerce order data using MySQL to understand delivery performance and identify patterns associated with late deliveries.\
+\
+## Business Questions\
+- What percentage of delivered orders arrived late?\
+- Which purchase months had the highest late-delivery rates?\
+- Which product categories had higher late-delivery rates?\
+\
+## Tools Used\
+- MySQL\
+- SQL\
+- CSV datasets\
+\
+## SQL Analysis\
+The SQL queries examine:\
+1. Overall late-delivery performance\
+2. Monthly late-delivery trends\
+3. Late-delivery rates by product category\
+\
+## Key Findings\
+- **8.11%** of eligible delivered orders arrived later than the estimated delivery date.\
+- March 2018 had the highest monthly late-delivery rate among the months analyzed, at **21.36%**.\
+- The audio category had a late-delivery rate of **12.93%** among categories with at least 100 delivered orders.\
+\
+## Files\
+- `olist_delivery_analysis.sql` \'97 SQL queries for delivery performance analysis.\
+\
+## Data Source\
+Brazilian Olist e-commerce public dataset, originally published on Kaggle.\
+\
+## Notes\
+Monthly and category-level rates are calculated from delivered orders with both actual and estimated delivery dates available. Product-category groups may overlap because an order can contain products from multiple categories.\
+}
